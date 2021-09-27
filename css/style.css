@@ -1,1 +1,62 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card-section {
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  padding: 10%;
+}
+
+.card-title {
+  color: #F2F2F2;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.card-desc {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-card {
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+}
+
+.sedan {
+  background-color: #F08100;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+}
+/*# sourceMappingURL=style.css.map */
